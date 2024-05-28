@@ -1,0 +1,87 @@
+version: 1.0.8
+
+cache: true
+
+interface:
+  privacyPolicy:
+    externalUrl: 'https://librechat.ai/privacy-policy'
+    openNewTab: true
+  termsOfService:
+    externalUrl: 'https://librechat.ai/tos'
+    openNewTab: true
+
+registration:
+  socialLogins: ["discord", "facebook", "github", "google", "openid"]
+
+endpoints:
+  custom:
+      # ConvoAI
+    - name: "CLAUDE"
+      apiKey: "user_provided"
+      baseURL: "https://api.convoai.tech/v1/messages"
+      models:
+        default: [
+          "claude-3-opus",
+          ]
+        fetch: false
+      summarize: false
+      summaryModel: "gpt-3.5-turbo"
+      forcePrompt: false
+      modelDisplayLabel: "ConvoAI"
+      iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/ConvoAI.png"
+
+      
+    - name: "JP"
+      apiKey: "user_provided"
+      baseURL: "${JP_BASE_URL}"
+      models:
+        default: [
+          "anthropic.claude-3-opus-20240229-v1:0",
+          ]
+      fetch: false
+      titleConvo: false
+      titleModel: "claude-3-haiku"
+      summarize: false
+      summaryModel: "claude-3-haiku"
+      dropParams: ["stop"]
+      modelDisplayLabel: "JP"
+      
+    
+    - name: "OpenRouter"
+      apiKey: "user_provided"
+      baseURL: "https://openrouter.ai/api/v1"
+      models:
+        "default": [
+         "anthropic/claude-3-opus:beta",
+         ]
+      fetch: false
+      titleConvo: true
+      titleModel: "gpt-3.5-turbo"
+      summarize: false
+      summaryModel: "gpt-3.5-turbo"
+      forcePrompt: false
+      modelDisplayLabel: "OpenRouter"
+
+    # Mistral AI API
+    - name: "Mistral"
+      apiKey: "user_provided"
+      baseURL: "https://api.mistral.ai/v1"
+      models: 
+        default: [
+          "mistral-tiny",
+          "mistral-small",
+          "mistral-medium",
+          "mistral-large-latest"
+          ]
+        fetch: false
+      titleConvo: true
+      titleMethod: "completion"
+      titleModel: "mistral-tiny"
+      summarize: false
+      summaryModel: "mistral-tiny"
+      forcePrompt: false
+      modelDisplayLabel: "Mistral"
+      dropParams: ["stop", "user", "frequency_penalty", "presence_penalty"]
+
+
+
