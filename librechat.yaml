@@ -24,8 +24,6 @@ endpoints:
           "anthropic.claude-3-opus-20240229-v1:0",
           ]
       fetch: false
-      titleConvo: true
-      titleModel: "anthropic.claude-3-opus-20240229-v1:0"
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
