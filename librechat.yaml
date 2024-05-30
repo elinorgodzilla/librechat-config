@@ -30,7 +30,7 @@ endpoints:
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
       dropParams: ["stop"]
-      modelDisplayLabel: "ConvoAI"
+      modelDisplayLabel: "CLAUDE"
       
       
     - name: "JP"
