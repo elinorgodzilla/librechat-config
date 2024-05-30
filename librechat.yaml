@@ -18,7 +18,7 @@ endpoints:
       # 
     - name: "CLAUDE"
       apiKey: "user_provided"
-      baseURL: "${JP_BASE_URL}"
+      baseURL: "${P_BASE_URL}"
       models:
         default: [
           "anthropic.claude-3-opus-20240229-v1:0",
