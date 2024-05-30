@@ -15,22 +15,23 @@ registration:
 
 endpoints:
   custom:
-      # ConvoAI
+      # 
     - name: "CLAUDE"
       apiKey: "user_provided"
-      baseURL: "https://api.convoai.tech/v1/messages"
+      baseURL: "${JP_BASE_URL}"
       models:
         default: [
-          "claude-3-opus",
+          "anthropic.claude-3-opus-20240229-v1:0",
           ]
-        fetch: false
+      fetch: false
+      titleConvo: true
+      titleModel: "anthropic.claude-3-opus-20240229-v1:0"
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
       dropParams: ["stop"]
       modelDisplayLabel: "ConvoAI"
-      iconURL: "https://raw.githubusercontent.com/fuegovic/lc-config-yaml/main/icons/ConvoAI.png"
-
+      
       
     - name: "JP"
       apiKey: "user_provided"
