@@ -64,26 +64,18 @@ endpoints:
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
 
-    # Mistral AI API
-    - name: "Mistral"
+ - name: "OMG"
       apiKey: "user_provided"
-      baseURL: "https://api.mistral.ai/v1"
-      models: 
+      baseURL: "${OMG_BASE_URL}"
+      models:
         default: [
-          "mistral-tiny",
-          "mistral-small",
-          "mistral-medium",
-          "mistral-large-latest"
+          "claude-3-opus-20240229",
           ]
-        fetch: false
-      titleConvo: true
-      titleMethod: "completion"
-      titleModel: "mistral-tiny"
+      fetch: false
+      titleConvo: false
+      titleModel: "claude-3-haiku"
       summarize: false
-      summaryModel: "mistral-tiny"
-      forcePrompt: false
-      modelDisplayLabel: "Mistral"
-      dropParams: ["stop", "user", "frequency_penalty", "presence_penalty"]
-
-
-
+      summaryModel: "claude-3-haiku"
+      dropParams: ["stop"]
+      modelDisplayLabel: "OMG"
+      
