@@ -66,18 +66,18 @@ endpoints:
       forcePrompt: false
       modelDisplayLabel: "OpenRouter"
 
-    - name: "OMG"
+    - name: "moonshot"
       apiKey: "user_provided"
-      baseURL: "${OMG_BASE_URL}"
+      baseURL: "${MS_BASE_URL}"
       models:
         default: [
-          "claude-3-opus-20240229",
+          "moonshot-v1-128k",
           ]
       fetch: false
       titleConvo: false
-      titleModel: "claude-3-haiku"
+      titleModel: "moonshot-v1-128k"
       summarize: false
-      summaryModel: "claude-3-haiku"
+      summaryModel: "moonshot-v1-128k"
       dropParams: ["stop"]
-      modelDisplayLabel: "OMG"
+      modelDisplayLabel: "Moonshot"
       
