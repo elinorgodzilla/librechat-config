@@ -80,4 +80,4 @@ endpoints:
       summaryModel: "moonshot-v1-128k"
       dropParams: ["stop"]
       modelDisplayLabel: "Moonshot"
-      
+      iconURL: "https://github.com/elinorgodzilla/librechat-config/blob/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
