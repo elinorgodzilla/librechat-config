@@ -57,6 +57,7 @@ endpoints:
       models:
         "default": [
          "anthropic/claude-3-opus:beta",
+         "anthropic/claude-3.5-sonnet:beta",
          ]
       fetch: false
       titleConvo: true
