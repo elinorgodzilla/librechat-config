@@ -16,22 +16,22 @@ registration:
 endpoints:
   custom:
       # 
-    - name: "CLAUDE"
+    - name: "UwU"
       apiKey: "user_provided"
-      baseURL: "${P_BASE_URL}"
+      baseURL: "${C_BASE_URL}"
       models:
         default: [
-          "anthropic.claude-3-opus-20240229-v1:0",
-          "anthropic.claude-3-sonnet-20240229-v1:0",
+          "claude-3-opus-20240229",
+          "claude-3-5-sonnet-20240620",
           ]
       fetch: false
-      titleConvo: false
-      titleModel: "claude-3-haiku"
+      titleConvo: true
+      titleModel: "claude-3-5-sonnet-20240620"
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
       dropParams: ["stop"]
-      modelDisplayLabel: "CLAUDE"
+      modelDisplayLabel: "UwU"
       
       
     - name: "JP"
@@ -49,6 +49,7 @@ endpoints:
       summaryModel: "claude-3-haiku"
       dropParams: ["stop"]
       modelDisplayLabel: "JP"
+      iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/main/icons/uwu.png"
       
     
     - name: "OpenRouter"
