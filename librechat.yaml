@@ -2,20 +2,27 @@ version: 1.0.8
 
 cache: true
 
-interface:
-  privacyPolicy:
-    externalUrl: 'https://librechat.ai/privacy-policy'
-    openNewTab: true
-  termsOfService:
-    externalUrl: 'https://librechat.ai/tos'
-    openNewTab: true
-
-registration:
-  socialLogins: ["discord", "facebook", "github", "google", "openid"]
-
 endpoints:
   custom:
       # 
+    - name: "UwU"
+      apiKey: "user_provided"
+      baseURL: "${C_BASE_URL}"
+      models:
+        default: [
+          "claude-3-opus-20240229",
+          "claude-3-5-sonnet-20240620",
+          ]
+      fetch: false
+      titleConvo: true
+      titleModel: "claude-3-5-sonnet-20240620"
+      summarize: false
+      summaryModel: "gpt-3.5-turbo"
+      forcePrompt: false
+      dropParams: ["stop"]
+      modelDisplayLabel: "UwU"
+      iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/main/icons/uwu.png"
+      
     - name: "JP"
       apiKey: "user_provided"
       baseURL: "${JP_BASE_URL}"
