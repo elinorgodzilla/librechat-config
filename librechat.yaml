@@ -8,14 +8,9 @@ endpoints:
     - name: "UwU"
       apiKey: "user_provided"
       baseURL: "${C_BASE_URL}"
-      models:
-        default: [
-          "claude-3-opus-20240229",
-          "claude-3-5-sonnet-20240620",
-          ]
       fetch: true
       titleConvo: true
-      titleModel: "claude-3-5-sonnet-20240620"
+      titleModel: "gpt4o"
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
