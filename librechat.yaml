@@ -13,7 +13,7 @@ endpoints:
           "claude-3-opus-20240229",
           "claude-3-5-sonnet-20240620",
           ]
-      fetch: false
+      fetch: true
       titleConvo: true
       titleModel: "claude-3-5-sonnet-20240620"
       summarize: false
