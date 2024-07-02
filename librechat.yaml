@@ -32,7 +32,7 @@ endpoints:
           "anthropic.claude-3-5-sonnet-20240620-v1:0",
           ]
       fetch: false
-      titleConvo: true
+      titleConvo: false
       titleModel: "anthropic.claude-3-5-sonnet-20240620-v1:0"
       summarize: false
       summaryModel: "claude-3-haiku"
