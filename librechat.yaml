@@ -107,7 +107,7 @@ endpoints:
           "claude-3-5-sonnet-20240620"
          ]
       fetch: false
-      titleConvo: true
+      titleConvo: false
       titleModel: "claude-3-haiku-20240229"
       summarize: false
       summaryModel: "claude-3-haiku"
