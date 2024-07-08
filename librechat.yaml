@@ -103,12 +103,12 @@ endpoints:
       baseURL: "${PROXY_BASE_URL}"
       models:
         default: [
-          "anthropic.claude-3-opus-20240229",
-          "anthropic.claude-3-5-sonnet-20240620"
+          "claude-3-opus-20240229",
+          "claude-3-5-sonnet-20240620"
          ]
       fetch: false
       titleConvo: true
-      titleModel: "anthropic.claude-3-haiku-20240229"
+      titleModel: "claude-3-haiku-20240229"
       summarize: false
       summaryModel: "claude-3-haiku"
       dropParams: ["stop"]
