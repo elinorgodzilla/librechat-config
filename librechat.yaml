@@ -71,7 +71,7 @@ endpoints:
           "deepinfra/airoboros-70b",
           "Qwen/Qwen2-7B-Instruct",
           "microsoft/Phi-3-medium-4k-instruct"
-        ]
+         ]
       fetch: false
       titleConvo: false
       titleModel: "gpt4o"
@@ -89,10 +89,26 @@ endpoints:
         default: [
           "anthropic.claude-3-opus-20240229-v1:0",
           "anthropic.claude-3-5-sonnet-20240620-v1:0"
-        ]
+         ]
       fetch: false
       titleConvo: false
       titleModel: "anthropic.claude-3-5-sonnet-20240620-v1:0"
+      summarize: false
+      summaryModel: "claude-3-haiku"
+      dropParams: ["stop"]
+      modelDisplayLabel: "JP"
+
+    - name: "PROXY"
+      apiKey: "user_provided"
+      baseURL: "${PROXY_BASE_URL}"
+      models:
+        default: [
+          "anthropic.claude-3-opus-20240229",
+          "anthropic.claude-3-5-sonnet-20240620"
+         ]
+      fetch: false
+      titleConvo: true
+      titleModel: "anthropic.claude-3-haiku-20240229"
       summarize: false
       summaryModel: "claude-3-haiku"
       dropParams: ["stop"]
@@ -105,7 +121,7 @@ endpoints:
         default: [
           "anthropic/claude-3-opus:beta",
           "anthropic/claude-3.5-sonnet:beta"
-        ]
+         ]
       fetch: false
       titleConvo: true
       titleModel: "gpt-3.5-turbo"
@@ -120,7 +136,7 @@ endpoints:
       models:
         default: [
           "moonshot-v1-128k"
-        ]
+         ]
       fetch: false
       titleConvo: false
       titleModel: "moonshot-v1-128k"
