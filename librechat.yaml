@@ -8,10 +8,9 @@ endpoints:
       baseURL: "${C_BASE_URL}"
       models:
         default: [
-          "claude-3-opus-20240229-API",
-          "claude-3-opus-20240229-api-vision",
-          "claude-3-5-sonnet-20240620-aws",
-          "claude-3-5-sonnet-20240620-API"
+          "claude-3-opus-20240229",
+          "claude-3-5-sonnet-20240620",
+                 
          ]
       fetch: false
       titleConvo: false
