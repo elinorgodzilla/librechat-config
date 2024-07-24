@@ -13,8 +13,8 @@ endpoints:
                  
          ]
       fetch: false
-      titleConvo: false
-      titleModel: "gpt4o"
+      titleConvo: true
+      titleModel: "claude-3-5-sonnet-20240620"
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
