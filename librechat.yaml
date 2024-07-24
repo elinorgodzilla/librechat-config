@@ -85,3 +85,21 @@ endpoints:
       dropParams: ["stop"]
       modelDisplayLabel: "Moonshot"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
+
+       # Mistral AI API
+    - name: "Mistral"
+      apiKey: "user_provided"
+      baseURL: "https://api.mistral.ai/v1"
+      models: 
+        default: [
+          "mistral-large-2407"
+          ]
+        fetch: false
+      titleConvo: true
+      titleMethod: "completion"
+      titleModel: "mistral-tiny"
+      summarize: false
+      summaryModel: "mistral-tiny"
+      forcePrompt: false
+      modelDisplayLabel: "Mistral"
+      dropParams: ["stop", "user", "frequency_penalty", "presence_penalty"]
