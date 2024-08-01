@@ -8,6 +8,7 @@ endpoints:
       baseURL: "${C_BASE_URL}"
       models:
         default: [
+          "claude-3-opus",
           "claude-3-opus-20240229",
           "claude-3-5-sonnet-20240620",
                  
