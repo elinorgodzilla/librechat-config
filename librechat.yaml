@@ -3,12 +3,11 @@ cache: true
 
 endpoints:
   custom:
-    - name: "UwU"
+    - name: "CLAUDE"
       apiKey: "user_provided"
       baseURL: "${C_BASE_URL}"
       models:
         default: [
-          "claude-3-opus",
           "claude-3-opus-20240229",
           "claude-3-5-sonnet-20240620",
                  
@@ -23,27 +22,12 @@ endpoints:
       modelDisplayLabel: "UwU"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/main/icons/uwu.png"
       
-    - name: "JP"
-      apiKey: "user_provided"
-      baseURL: "${JP_BASE_URL}"
-      models:
-        default: [
-          "anthropic.claude-3-opus-20240229-v1:0",
-          "anthropic.claude-3-5-sonnet-20240620-v1:0"
-         ]
-      fetch: false
-      titleConvo: false
-      titleModel: "anthropic.claude-3-5-sonnet-20240620-v1:0"
-      summarize: false
-      summaryModel: "claude-3-haiku"
-      dropParams: ["stop"]
-      modelDisplayLabel: "JP"
-
     - name: "PROXY"
       apiKey: "user_provided"
       baseURL: "${PROXY_BASE_URL}"
       models:
         default: [
+          "claude-3-opus",
           "claude-3-opus-20240229",
           "claude-3-5-sonnet-20240620"
          ]
