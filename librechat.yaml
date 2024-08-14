@@ -3,7 +3,7 @@ cache: true
 
 endpoints:
   custom:
-    - name: "CLAUDE"
+    - name: "UwU"
       apiKey: "user_provided"
       baseURL: "${C_BASE_URL}"
       models:
