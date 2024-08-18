@@ -71,20 +71,21 @@ endpoints:
       modelDisplayLabel: "Moonshot"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
 
-       # Mistral AI API
-    - name: "Mistral"
+       # OpenRouter.ai
+    # Model list: https://openrouter.ai/models
+    # Script to fetch models: https://github.com/LibreChat-AI/librechat-config-yaml/blob/main/scripts/openrouter.py
+    - name: "OpenRouter"
       apiKey: "user_provided"
-      baseURL: "https://api.mistral.ai/v1"
-      models: 
+      baseURL: "https://openrouter.ai/api/v1"
+      models:
         default: [
-          "mistral-large-2407"
+          "nousresearch/hermes-3-llama-3.1-405b:extended"
           ]
         fetch: false
+      dropParams: ["stop"]
       titleConvo: true
-      titleMethod: "completion"
-      titleModel: "mistral-tiny"
+      titleModel: "nousresearch/hermes-3-llama-3.1-405b:extended"
       summarize: false
-      summaryModel: "mistral-tiny"
+      summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
-      modelDisplayLabel: "Mistral"
-      dropParams: ["stop", "user", "frequency_penalty", "presence_penalty"]
+      modelDisplayLabel: "OpenRouter"
