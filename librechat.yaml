@@ -7,11 +7,9 @@ endpoints:
       apiKey: "user_provided"
       baseURL: "${C_BASE_URL}"
       models:
-        default: [
-          "claude-3-opus-20240229",
-          "claude-3-5-sonnet-20240620",
-                 
-         ]
+        default: 
+          - "claude-3-opus-20240229"
+          - "claude-3-5-sonnet-20240620"
       fetch: false
       titleConvo: false
       titleModel: "claude-3-5-sonnet-20240620"
@@ -26,11 +24,10 @@ endpoints:
       apiKey: "user_provided"
       baseURL: "${PROXY_BASE_URL}"
       models:
-        default: [
-          "claude-3-opus",
-          "claude-3-opus-20240229",
-          "claude-3-5-sonnet-20240620"
-         ]
+        default: 
+          - "claude-3-opus"
+          - "claude-3-opus-20240229"
+          - "claude-3-5-sonnet-20240620"
       fetch: false
       titleConvo: false
       titleModel: "claude-3-haiku-20240229"
@@ -39,28 +36,27 @@ endpoints:
       dropParams: ["stop"]
       modelDisplayLabel: "PROXY"
 
-      - name: "OpenRouter"
-  apiKey: "user_provided"
-  baseURL: "https://openrouter.ai/api/v1"
-  models:
-    default: 
-      - "anthropic/claude-3-opus:beta"
-      - "anthropic/claude-3.5-sonnet:beta"
-  fetch: false
-  titleConvo: true
-  titleModel: "gpt-3.5-turbo"
-  summarize: false
-  summaryModel: "gpt-3.5-turbo"
-  forcePrompt: false
-  modelDisplayLabel: "OpenRouter"
+    - name: "OpenRouter"
+      apiKey: "user_provided"
+      baseURL: "https://openrouter.ai/api/v1"
+      models:
+        default: 
+          - "anthropic/claude-3-opus:beta"
+          - "anthropic/claude-3.5-sonnet:beta"
+      fetch: false
+      titleConvo: true
+      titleModel: "gpt-3.5-turbo"
+      summarize: false
+      summaryModel: "gpt-3.5-turbo"
+      forcePrompt: false
+      modelDisplayLabel: "OpenRouter"
 
     - name: "moonshot"
       apiKey: "user_provided"
       baseURL: "${MS_BASE_URL}"
       models:
-        default: [
-          "moonshot-v1-128k"
-         ]
+        default: 
+          - "moonshot-v1-128k"
       fetch: false
       titleConvo: false
       titleModel: "moonshot-v1-128k"
@@ -69,5 +65,3 @@ endpoints:
       dropParams: ["stop"]
       modelDisplayLabel: "Moonshot"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
-
-      
