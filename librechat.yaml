@@ -38,22 +38,21 @@ endpoints:
       summaryModel: "claude-3-haiku"
       dropParams: ["stop"]
       modelDisplayLabel: "PROXY"
-      
-    - name: "OpenRouter"
-      apiKey: "user_provided"
-      baseURL: "https://openrouter.ai/api/v1"
-      models:
-        default: [
-          "anthropic/claude-3-opus:beta",
-          "anthropic/claude-3.5-sonnet:beta"
-         ]
-      fetch: false
-      titleConvo: true
-      titleModel: "gpt-3.5-turbo"
-      summarize: false
-      summaryModel: "gpt-3.5-turbo"
-      forcePrompt: false
-      modelDisplayLabel: "OpenRouter"
+
+      - name: "OpenRouter"
+  apiKey: "user_provided"
+  baseURL: "https://openrouter.ai/api/v1"
+  models:
+    default: 
+      - "anthropic/claude-3-opus:beta"
+      - "anthropic/claude-3.5-sonnet:beta"
+  fetch: false
+  titleConvo: true
+  titleModel: "gpt-3.5-turbo"
+  summarize: false
+  summaryModel: "gpt-3.5-turbo"
+  forcePrompt: false
+  modelDisplayLabel: "OpenRouter"
 
     - name: "moonshot"
       apiKey: "user_provided"
@@ -71,21 +70,4 @@ endpoints:
       modelDisplayLabel: "Moonshot"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
 
-       # OpenRouter.ai
-    # Model list: https://openrouter.ai/models
-    # Script to fetch models: https://github.com/LibreChat-AI/librechat-config-yaml/blob/main/scripts/openrouter.py
-    - name: "OpenRouter"
-      apiKey: "user_provided"
-      baseURL: "https://openrouter.ai/api/v1"
-      models:
-        default: [
-          "nousresearch/hermes-3-llama-3.1-405b:extended"
-          ]
-        fetch: false
-      dropParams: ["stop"]
-      titleConvo: true
-      titleModel: "nousresearch/hermes-3-llama-3.1-405b:extended"
-      summarize: false
-      summaryModel: "gpt-3.5-turbo"
-      forcePrompt: false
-      modelDisplayLabel: "OpenRouter"
+      
