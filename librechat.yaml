@@ -33,7 +33,7 @@ endpoints:
       summarize: false
       summaryModel: "claude-3-haiku"
       dropParams: ["stop"]
-      modelDisplayLabel: "PROXY"
+      modelDisplayLabel: "CLAUDE"
 
     - name: "OpenRouter"
       apiKey: "user_provided"
