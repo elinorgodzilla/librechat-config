@@ -20,14 +20,13 @@ endpoints:
       modelDisplayLabel: "UwU"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/main/icons/uwu.png"
       
-    - name: "PROXY"
+    - name: "CLAUDE PROXY"
       apiKey: "user_provided"
       baseURL: "${PROXY_BASE_URL}"
       models:
         default: 
-          - "claude-3-opus"
-          - "claude-3-opus-20240229"
-          - "claude-3-5-sonnet-20240620"
+          - "anthropic.claude-3-opus-20240229-v1:0"
+          - "anthropic.claude-3-5-sonnet-20240620-v1:0"
       fetch: false
       titleConvo: false
       titleModel: "claude-3-haiku-20240229"
