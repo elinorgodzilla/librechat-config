@@ -44,6 +44,12 @@ endpoints:
         default: 
           - "anthropic/claude-3-opus:beta"
           - "anthropic/claude-3.5-sonnet:beta"
+          - "x-ai/grok-beta"
+          - "gryphe/mythomax-l2-13b"
+          - "inflection/inflection-3-pi"
+          - "anthracite-org/magnum-v2-72b"
+          - "thedrummer/rocinante-12b"
+          
       fetch: false
       titleConvo: true
       titleModel: "gpt-3.5-turbo"
