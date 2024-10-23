@@ -26,9 +26,7 @@ endpoints:
       models:
         default: 
           - "anthropic.claude-3-opus-20240229-v1:0"
-          - "anthropic.claude-3-5-sonnet-20240620-v1:0"
-          - "claude-3-opus-20240229"
-          - "claude-3-opus"
+          - "anthropic.claude-3-5-sonnet-20241022-v2:0"
       fetch: false
       titleConvo: false
       titleModel: "claude-3-haiku-20240229"
