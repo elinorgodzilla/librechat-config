@@ -42,7 +42,7 @@ endpoints:
         default: 
           - "anthropic/claude-3-opus:beta"
           - "anthropic/claude-3.5-sonnet:beta"
-          - "anthropic/claude-3.5-sonnet-20240620:beta"
+          - "anthropic/claude-3-5-haiku-20241022:beta"
           - "x-ai/grok-beta"
           - "gryphe/mythomax-l2-13b"
           - "inflection/inflection-3-pi"
