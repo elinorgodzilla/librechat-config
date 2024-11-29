@@ -46,7 +46,7 @@ endpoints:
           - "anthropic/claude-3.5-sonnet:beta"
           - "google/gemini-exp-1114"
           - "anthracite-org/magnum-v4-72b"
-          - "x-ai/grok-beta"
+          - "qwen/qwq-32b-preview"
           - "gryphe/mythomax-l2-13b"
           - "inflection/inflection-3-pi"
           - "anthracite-org/magnum-v2-72b"
