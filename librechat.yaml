@@ -44,7 +44,8 @@ endpoints:
         default: 
           - "anthropic/claude-3-opus:beta"
           - "anthropic/claude-3.5-sonnet:beta"
-          - "google/gemini-exp-1114"
+          - "amazon/nova-pro-v1"
+          - "google/gemini-exp-1121"
           - "anthracite-org/magnum-v4-72b"
           - "qwen/qwq-32b-preview"
           - "gryphe/mythomax-l2-13b"
