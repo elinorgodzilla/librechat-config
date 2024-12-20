@@ -47,6 +47,7 @@ endpoints:
           - "amazon/nova-pro-v1"
           - "google/gemini-exp-1121"
           - "google/gemini-exp-1206:free"
+          - "google/gemini-2.0-flash-thinking-exp:free"
           - "anthracite-org/magnum-v4-72b"
           - "qwen/qwq-32b-preview"
           - "gryphe/mythomax-l2-13b"
