@@ -44,6 +44,7 @@ endpoints:
         default: 
           - "anthropic/claude-3-opus:beta"
           - "anthropic/claude-3.5-sonnet:beta"
+          - "deepseek/deepseek-chat"
           - "amazon/nova-pro-v1"
           - "google/gemini-exp-1121"
           - "google/gemini-exp-1206:free"
