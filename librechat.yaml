@@ -78,3 +78,18 @@ endpoints:
       dropParams: ["stop"]
       modelDisplayLabel: "Moonshot"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
+
+    - name: "DeepSeek"
+      apiKey: "user_provided"
+      baseURL: "https://api.deepseek.com/v1"
+      models:
+        default: 
+          - "deepseek-chat"
+      fetch: false
+      titleConvo: false
+      titleModel: "deepseek-chat"
+      summarize: false
+      summaryModel: "deepseek-chat"
+      dropParams: ["stop"]
+      modelDisplayLabel: "DeepSeek"
+      iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/deepseek.png"
