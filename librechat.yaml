@@ -93,3 +93,19 @@ endpoints:
       dropParams: ["stop"]
       modelDisplayLabel: "DeepSeek"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/deepseek.png"
+
+    - name: "MiniMax"
+      apiKey: "user_provided"
+      baseURL: "https://api.minimaxi.chat/v1/"
+      models:
+        default: 
+          - "MiniMax-Text-01"
+          - "abab6.5s-chat"
+      fetch: false
+      titleConvo: false
+      titleModel: "MiniMax-Text-01"
+      summarize: false
+      summaryModel: "MiniMax-Text-01"
+      dropParams: ["stop"]
+      modelDisplayLabel: "DeepSeek"
+      iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/deepseek.png"
