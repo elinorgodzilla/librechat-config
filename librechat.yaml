@@ -108,5 +108,4 @@ endpoints:
       summarize: false
       summaryModel: "MiniMax-Text-01"
       dropParams: ["stop"]
-      modelDisplayLabel: "DeepSeek"
-      iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/deepseek.png"
+      modelDisplayLabel: "MiniMax"
