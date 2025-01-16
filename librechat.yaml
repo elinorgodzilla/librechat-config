@@ -18,7 +18,8 @@ endpoints:
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
-      dropParams: ["stop"]
+      addParams:
+      dropParams: ["stop", "user", "frequency_penalty", "presence_penalty"]      
       modelDisplayLabel: "UwU"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/main/icons/uwu.png"
       
