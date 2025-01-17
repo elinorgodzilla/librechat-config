@@ -11,7 +11,7 @@ endpoints:
           - "claude-3-5-sonnet-20241022"
         fetch: false
       titleConvo: false
-      titleModel: "claude-3-5-sonnet-20240620"
+      titleModel: "claude-3-5-sonnet-20241022"
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
