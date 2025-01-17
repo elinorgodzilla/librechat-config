@@ -9,6 +9,7 @@ endpoints:
       models:
         default: 
           - "claude-3-opus-20240229"
+          - "claude-3.5-sonnet"
           - "claude-3-5-sonnet-20241022"
           - "anthropic/claude-3.5-sonnet"
           - "anthropic/claude-3-opus"
