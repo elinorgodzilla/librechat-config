@@ -19,8 +19,6 @@ endpoints:
       modelDisplayLabel: "UwU"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/main/icons/uwu.png"
 
-endpoints:
-  custom:
     - name: "UwU2"
       apiKey: "user_provided"
       baseURL: "${C2_BASE_URL}"
