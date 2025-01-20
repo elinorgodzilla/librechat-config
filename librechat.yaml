@@ -102,6 +102,8 @@ endpoints:
       models:
         default: 
           - "deepseek-chat"
+          - "DeepSeek-R1"
+          - "DeepSeek-R1-Zero"
       fetch: false
       titleConvo: false
       titleModel: "deepseek-chat"
