@@ -26,6 +26,7 @@ endpoints:
         default: 
           - "claude-3-5-sonnet-20241022"
           - "claude-3.5-sonnet"
+          - "anthropic/claude-3.5-sonnet-20241022"
         fetch: false
       titleConvo: false
       titleModel: "claude-3.5-sonnet"
