@@ -25,9 +25,10 @@ endpoints:
       models:
         default: 
           - "claude-3-5-sonnet-20241022"
+          - "claude-3.5-sonnet"
         fetch: false
       titleConvo: false
-      titleModel: "claude-3-5-sonnet-20241022"
+      titleModel: "claude-3.5-sonnet"
       summarize: false
       summaryModel: "gpt-3.5-turbo"
       forcePrompt: false
