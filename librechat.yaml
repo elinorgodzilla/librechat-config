@@ -100,7 +100,7 @@ endpoints:
 
     - name: "DeepSeek"
       apiKey: "user_provided"
-      baseURL: "https://api.deepseek.com/v1"
+      baseURL: "https://api.deepseek.com/beta"
       models:
         default: 
           - "deepseek-chat"
