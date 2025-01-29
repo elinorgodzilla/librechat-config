@@ -129,3 +129,17 @@ endpoints:
       summaryModel: "deepseek-ai/DeepSeek-R1"
       dropParams: ["stop"]
       modelDisplayLabel: "Together.ai Deepseek R1"
+
+    - name: "Nebius"
+      apiKey: "user_provided"
+      baseURL: "https://api.studio.nebius.ai/v1/"
+      models:
+        default: 
+          - "deepseek-ai/DeepSeek-R1"
+      fetch: false
+      titleConvo: false
+      titleModel: "deepseek-ai/DeepSeek-R1"
+      summarize: false
+      summaryModel: "deepseek-ai/DeepSeek-R1"
+      dropParams: ["stop"]
+      modelDisplayLabel: "Together.ai Deepseek R1"
