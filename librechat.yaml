@@ -142,4 +142,4 @@ endpoints:
       summarize: false
       summaryModel: "deepseek-ai/DeepSeek-R1"
       dropParams: ["stop"]
-      modelDisplayLabel: "Together.ai Deepseek R1"
+      modelDisplayLabel: "Nebius Deepseek R1"
