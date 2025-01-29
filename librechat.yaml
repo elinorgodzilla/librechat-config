@@ -115,17 +115,16 @@ endpoints:
       modelDisplayLabel: "DeepSeek"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/deepseek.png"
 
-    - name: "MiniMax"
+    - name: "Chutes"
       apiKey: "user_provided"
-      baseURL: "https://api.minimaxi.chat/v1/"
+      baseURL: "https://chutes-deepseek-ai-deepseek-r1.chutes.ai/v1"
       models:
         default: 
-          - "MiniMax-Text-01"
-          - "abab6.5s-chat"
+          - "deepseek-ai/DeepSeek-R1"
       fetch: false
       titleConvo: false
-      titleModel: "MiniMax-Text-01"
+      titleModel: "deepseek-ai/DeepSeek-R1"
       summarize: false
-      summaryModel: "MiniMax-Text-01"
+      summaryModel: "deepseek-ai/DeepSeek-R1"
       dropParams: ["stop"]
-      modelDisplayLabel: "MiniMax"
+      modelDisplayLabel: "Chutes Deepseek R1"
