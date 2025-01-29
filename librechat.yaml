@@ -143,4 +143,4 @@ endpoints:
       summaryModel: "deepseek-ai/DeepSeek-R1"
       dropParams: ["stop"]
       modelDisplayLabel: "Nebius Deepseek R1"
-      iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/nebius.png"
+      iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/nebius2.jpg"
