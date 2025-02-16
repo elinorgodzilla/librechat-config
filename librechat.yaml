@@ -44,6 +44,7 @@ endpoints:
       baseURL: "${PROXY_BASE_URL}"
       models:
         default: 
+          - "claude-3-5-sonnet-20241022"
           - "anthropic/claude-3-opus:beta"
           - "anthropic/claude-3.5-sonnet:beta"
       fetch: false
