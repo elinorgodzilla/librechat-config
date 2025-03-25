@@ -139,6 +139,7 @@ endpoints:
       models:
         default: 
           - "deepseek-ai/DeepSeek-R1"
+          - "deepseek-ai/DeepSeek-V3-0324"
       fetch: false
       titleConvo: true
       titleModel: "deepseek-ai/DeepSeek-R1"
