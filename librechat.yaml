@@ -60,6 +60,8 @@ endpoints:
       baseURL: "https://openrouter.ai/api/v1"
       models:
         default: 
+          - "anthropic/claude-opus-4"
+          - "anthropic/claude-sonnet-4"
           - "anthropic/claude-3.7-sonnet:beta"
           - "anthropic/claude-3.7-sonnet"
           - "anthropic/claude-3-opus:beta"
