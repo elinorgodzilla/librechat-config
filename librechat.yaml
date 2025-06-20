@@ -142,6 +142,7 @@ endpoints:
       baseURL: "https://api.studio.nebius.ai/v1/"
       models:
         default: 
+          - "deepseek-ai/DeepSeek-R1-0528"
           - "deepseek-ai/DeepSeek-R1"
           - "deepseek-ai/DeepSeek-V3-0324"
       fetch: false
