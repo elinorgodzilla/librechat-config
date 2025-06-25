@@ -151,14 +151,12 @@ endpoints:
       baseURL: "https://api.x.ai/v1"
       models:
         default: 
-          - "grok-2-1212"
-          - "grok-2-vision-1212"
           - "grok-3-beta"
       fetch: false
       titleConvo: true
-      titleModel: "grok-2-1212"
+      titleModel: "grok-3-beta"
       summarize: false
-      summaryModel: "grok-2-1212"
+      summaryModel: "grok-3-beta"
       dropParams: ["stop"]
       modelDisplayLabel: "GROK"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/grok.jpg"
