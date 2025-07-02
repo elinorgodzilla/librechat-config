@@ -74,6 +74,7 @@ endpoints:
           - "inflection/inflection-3-pi"
           - "anthracite-org/magnum-v2-72b"
           - "thedrummer/rocinante-12b"
+          - "openrouter/cypher-alpha:free"
           
       fetch: false
       titleConvo: true
