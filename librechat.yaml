@@ -62,6 +62,7 @@ endpoints:
         default: 
           - "anthropic/claude-opus-4"
           - "anthropic/claude-sonnet-4"
+          - "x-ai/grok-4"
           - "openai/o3-pro"
           - "openrouter/quasar-alpha"
           - "deepseek/deepseek-r1"
