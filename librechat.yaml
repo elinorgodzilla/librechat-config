@@ -90,14 +90,13 @@ endpoints:
       baseURL: "${MS_BASE_URL}"
       models:
         default: 
-          - "kimi-latest"
           - "moonshot-v1-128k"
-          - "moonshot-v1-128k-vision-preview"
+          - "kimi-latest"
       fetch: false
       titleConvo: false
-      titleModel: "moonshot-v1-128k"
+      titleModel: "kimi-latest"
       summarize: false
-      summaryModel: "moonshot-v1-128k"
+      summaryModel: "kimi-latest"
       dropParams: ["stop"]
       modelDisplayLabel: "Moonshot"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
