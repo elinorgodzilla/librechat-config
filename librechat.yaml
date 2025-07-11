@@ -91,7 +91,7 @@ endpoints:
       models:
         default: 
           - "moonshot-v1-128k"
-          - "kimi-latest"
+          - "kimi-k2-0711-preview"
       fetch: false
       titleConvo: false
       titleModel: "kimi-latest"
