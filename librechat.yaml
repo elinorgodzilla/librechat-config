@@ -64,6 +64,7 @@ endpoints:
           - "anthropic/claude-sonnet-4"
           - "x-ai/grok-4"
           - "openrouter/horizon-alpha"
+          - "openrouter/horizon-beta"
           - "openai/o3-pro"
           - "openrouter/quasar-alpha"
           - "deepseek/deepseek-r1"
