@@ -63,7 +63,7 @@ endpoints:
           - "anthropic/claude-opus-4.1"
           - "anthropic/claude-sonnet-4.5"
           - "x-ai/grok-4"
-          - "z-ai/glm-4.5v"
+          - "z-ai/glm-4.6"
           - "openai/o3-pro"
           - "openrouter/quasar-alpha"
           - "deepseek/deepseek-r1"
