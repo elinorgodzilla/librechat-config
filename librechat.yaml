@@ -165,3 +165,17 @@ endpoints:
       dropParams: ["stop"]
       modelDisplayLabel: "GROK"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/grok.jpg"
+
+    - name: "Z.AI"
+      apiKey: "user_provided"
+      baseURL: "https://api.z.ai/api/paas/v4"
+      models:
+        default: 
+          - "glm-4.7"
+      fetch: false
+      titleConvo: true
+      titleModel: "glm-4.7"
+      summarize: false
+      summaryModel: "glm-4.7"
+      dropParams: ["stop"]
+      modelDisplayLabel: "GLM"
