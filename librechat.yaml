@@ -62,7 +62,7 @@ endpoints:
         default: 
           - "anthropic/claude-opus-4.5"
           - "anthropic/claude-opus-4.6"
-          - "qwen/qwen3.5-plus"
+          - "qwen/qwen3.5-plus-02-15"
           - "amazon/nova-premier-v1"
           - "deepseek/deepseek-r1"
           - "deepseek/deepseek-chat"
