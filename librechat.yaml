@@ -69,7 +69,7 @@ endpoints:
           - "minimax/minimax-m2.5"
           - "amazon/nova-pro-v1"
           - "anthracite-org/magnum-v4-72b"
-          - "qwen/qwq-32b-preview"
+          - "google/gemini-3.1-pro-preview"
           - "gryphe/mythomax-l2-13b"
           - "inflection/inflection-3-pi"
           - "anthracite-org/magnum-v2-72b"
