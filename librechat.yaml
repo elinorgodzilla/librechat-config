@@ -99,7 +99,7 @@ endpoints:
       modelDisplayLabel: "Moonshot"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/587297a974faf2e7e06364c2e8aae4f72a75acec/icons/moonshot.jpeg"
 
-        - name: "DeepSeek"
+    - name: "DeepSeek"
       apiKey: "user_provided"
       baseURL: "https://api.deepseek.com/beta"
       models:
