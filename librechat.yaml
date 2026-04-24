@@ -104,7 +104,7 @@ endpoints:
       baseURL: "https://api.deepseek.com/beta"
       models:
         default: 
-          - "deepseek-chat"
+          - "deepseek-v4-pro"
           - "deepseek-reasoner"
       fetch: false
       titleConvo: false
