@@ -114,7 +114,7 @@ endpoints:
       dropParams: ["stop"]
       addParams:
         thinking:
-          type: "enabled"
+          type: "disabled"
       modelDisplayLabel: "DeepSeek"
       iconURL: "https://raw.githubusercontent.com/elinorgodzilla/librechat-config/refs/heads/main/icons/deepseek.png"
 
