@@ -1,15 +1,11 @@
 version: 1.0.8
 cache: true
-
-# Disable summarization globally
-summarization:
-  enabled: false
-
 # Add this section to disable summarization globally
 summarization:
   trigger:
     type: "token_ratio"
     value: 1.0
+    enabled: false
 
 endpoints:
   custom:
